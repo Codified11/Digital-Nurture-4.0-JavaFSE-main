@@ -1,0 +1,6 @@
+** OUTPUT OF THIS CODE IS.........
+
+     Logger Initialized
+     Log: This is the first message.
+     Log: This is the second message.
+     Both looger1 and logger2 are the same instance.

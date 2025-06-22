@@ -1,0 +1,42 @@
+** ASYMPTOTIC NOTATION................
+      Asymptotic notation in data structures is a way to describe the performance or complexity of an algorithm, particularly as the input size grows very large.
+       It focuses on how the algorithm's runtime or memory usage scales, ignoring constant factors and lower-order terms.
+
+
+** BIG 'O' NOTATION ........
+      Big O notation is a mathematical tool used to describe the efficiency of an algorithm in terms of:
+
+      * Time complexity (how long it takes to run)
+      * Space complexity (how much memory it uses)
+
+     Helps predict performance for large inputs
+
+** SEARCH ALGORITHMS COMPLEXITIES........
+
+       Linear serach=
+            best case -> O(1)
+            average case -> O(n)
+            worst case -> O(n)
+
+       Binary serach=
+            best case -> O(1)
+            average case -> O(logn)
+            worst case -> O(logn)
+
+
+** BETTER SEARCHING TECHNIQUE...........
+
+      * Linear Search is better if:
+         Data is unsorted and small.
+         Frequent inserts/updates are done without sorting.
+
+      * Binary Search is better if:
+         Data is large and relatively static.
+         Performance is crucial (faster search times).
+
+
+** OUTPUT OF THIS CODE IS..............
+
+   Linear Search Find Product : [ 4 - Book - Education ]
+   Bianry Search Find Product : [ 4 - Book - Education ]
+

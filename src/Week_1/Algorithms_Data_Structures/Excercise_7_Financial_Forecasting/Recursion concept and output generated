@@ -1,0 +1,40 @@
+
+** RECURSION......
+Recursion is a programming technique where a function calls itself to solve a smaller instance of the same problem. It usually involves:
+      A base case (stopping condition)
+      A recursive case (problem is reduced)
+
+** RECURSION USE FOR ........
+     * Simplifies code for repetitive, self-similar problems (like Fibonacci, tree traversal, etc.)
+
+     * Helps express mathematical formulas and patterns naturally
+
+** FORMULA USED TO CALCULATE FUTURE VALUE IS..........
+       future value = present value * (1 + growth rate) ^ years.
+
+       Recursive approach: apply year-by-year growth
+
+** COMPLEXITY.............
+        Time Complexity
+        T(n) = T(n-1) + O(1) → O(n) time
+
+        One recursive call per year (n years)
+
+        * Space Complexity
+        O(n) stack space (due to function call stack)
+
+
+** OPTIMIZATION APPROACH.........
+         * Optimization Suggestions
+                To avoid excessive computation or stack overflow:
+
+                Use Iteration instead of recursion:
+
+         ........for(int i =0; i<years; i++){
+                    presentValue *= (1+ growthRate);
+                }
+                return presentValue;.............
+
+
+** OUTPUT OF THIS CODE IS..............
+       Future Value after 5 years: ₹12762.816
